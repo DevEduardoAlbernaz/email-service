@@ -1,5 +1,5 @@
 package com.edu.email_service.adapters;
 
-public class EmailSenderGateway {
-    
+public interface EmailSenderGateway {
+    void sendEmail (String to, String subject, String body);
 }

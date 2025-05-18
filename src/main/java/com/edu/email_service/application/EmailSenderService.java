@@ -3,7 +3,8 @@ package com.edu.email_service.application;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.edu.email_service.core.exceptions.EmailSenderUseCase;
+import com.edu.email_service.adapters.EmailSenderGateway;
+import com.edu.email_service.core.EmailSenderUseCase;
 
 @Service
 public class EmailSenderService implements EmailSenderUseCase {
